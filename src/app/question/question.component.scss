@@ -1,0 +1,53 @@
+.card {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  top: -30px;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+li .card:hover {
+  border: 1px solid #2a4ddc;
+}
+
+ol {
+  padding: 0;
+}
+
+mat-toolbar-row {
+  background-color: #454545;
+  position: fixed;
+}
+
+.branding {
+  width: 240px;
+}
+
+.bg-img {
+  background-image: url("../../assets/quiz.png");
+  min-height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+.restart-btn {
+  background-color: #40e0d0;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.3em;
+  color: #4c4c4c;
+  float: left;
+}
+
+.restart-btn:hover {
+  background-color: #9fe2bf;
+  color: #ffffff;
+}

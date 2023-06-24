@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "questionText": "What year was the first Iron Man movie released, kicking off the Marvel Cinematic Universe?",
+      "options": [
+        {
+          "text": "2005"
+        },
+        {
+          "text": "2008",
+          "correct": true
+        },
+        {
+          "text": "2010"
+        },
+        {
+          "text": "2012"
+        }
+      ]
+    },
+    {
+      "questionText": "What is the name of Thor’s hammer?",
+      "options": [
+        {
+          "text": "Vanir"
+        },
+        {
+          "text": "Aesir"
+        },
+        {
+          "text": "Norn"
+        },
+        {
+          "text": "Mjolnir",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "In the Incredible Hulk, what does Tony tell Thaddeus Ross at the end of the film?",
+      "options": [
+        {
+          "text": "That he wants to study The Hulk"
+        },
+        {
+          "text": "That he knows about S.H.I.E.L.D."
+        },
+        {
+          "text": "That they are putting a team together",
+          "correct": true
+        },
+        {
+          "text": "That Thaddeus owes him money"
+        }
+      ]
+    },
+    {
+      "questionText": "What is Captain America’s shield made of?",
+      "options": [
+        {
+          "text": "Adamantium"
+        },
+        {
+          "text": "Vibranium",
+          "correct": true
+        },
+        {
+          "text": "Promethium"
+        },
+        {
+          "text": "Carbonadium"
+        }
+      ]
+    },
+    {
+      "questionText": "The Flerkens are a race of extremely dangerous aliens that resembles what?",
+      "options": [
+        {
+          "text": "Cats",
+          "correct": true
+        },
+        {
+          "text": "Ducks"
+        },
+        {
+          "text": "Reptiles"
+        },
+        {
+          "text": "Raccoons"
+        }
+      ]
+    },
+    {
+      "questionText": "Before becoming Vision, what is the name of Iron Man’s A.I. butler?",
+      "options": [
+        {
+          "text": "H.O.M.E.R."
+        },
+        {
+          "text": "J.A.R.V.I.S.",
+          "correct": true
+        },
+        {
+          "text": "A.L.F.R.E.D."
+        },
+        {
+          "text": "M.A.R.V.I.N."
+        }
+      ]
+    },
+    {
+      "questionText": "What is the real name of the Black Panther?",
+      "options": [
+        {
+          "text": "T’Challa",
+          "correct": true
+        },
+        {
+          "text": "M’Baku"
+        },
+        {
+          "text": "N’Jadaka"
+        },
+        {
+          "text": "N’Jobu"
+        }
+      ]
+    },
+    {
+      "questionText": "What is the alien race Loki sends to invade Earth in The Avengers?",
+      "options": [
+        {
+          "text": "The Chitauri",
+          "correct": true
+        },
+        {
+          "text": "The Skrulls"
+        },
+        {
+          "text": "The Kree"
+        },
+        {
+          "text": "The Flerkens"
+        }
+      ]
+    },
+    {
+      "questionText": "Who was the last holder of the Space Stone before Thanos claims it for his Infinity Gauntlet?",
+      "options": [
+        {
+          "text": "Thor"
+        },
+        {
+          "text": "Loki",
+          "correct": true
+        },
+        {
+          "text": "The Collector"
+        },
+        {
+          "text": "Tony Stark"
+        }
+      ]
+    },
+    {
+      "questionText": "What fake name does Natasha use when she first meets Tony?",
+      "options": [
+        {
+          "text": "Natalie Rushman",
+          "correct": true
+        },
+        {
+          "text": "Natalia Romanoff"
+        },
+        {
+          "text": "Nicole Rohan"
+        },
+        {
+          "text": "Naya Rabe"
+        }
+      ]
+    }
+  ]
+}

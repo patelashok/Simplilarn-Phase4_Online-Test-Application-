@@ -1,0 +1,70 @@
+.info-txt {
+  font-family: "Comic Sans MS", Comic Sans, cursive;
+  text-align: center;
+}
+
+.main-txt {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.start-btn {
+  background-color: #de3163;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.3em;
+  color: #4c4c4c;
+  margin: 31px 575px;
+}
+
+.start-btn:hover {
+  background-color: #40e0d0;
+  color: #ffffff;
+}
+
+#logout {
+  cursor: pointer;
+  background: no-repeat;
+  float: right;
+  border: none;
+  color: #00000099;
+  position: absolute;
+  right: 20px;
+}
+
+mat-toolbar {
+  background-color: #454545;
+}
+
+.branding {
+  width: 240px;
+}
+
+#name-label {
+  margin: 0px 500px;
+}
+
+#name {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.bg-img {
+  background-image: url("../../assets/welcomeUser.png");
+  min-height: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.bg-light {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}

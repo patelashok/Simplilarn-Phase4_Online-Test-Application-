@@ -1,0 +1,87 @@
+.bg-img {
+  background-image: url("../../assets/userLogin.png");
+  min-height: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.example-container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-field {
+  height: 100px;
+  width: 300px;
+  display: block;
+}
+
+mat-card {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-left: 800px;
+  margin-top: 100px;
+}
+
+.text {
+  justify-content: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.login-btn {
+  background-color: #dfff00;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.3em;
+  color: #4c4c4c;
+  float: left;
+}
+
+.login-btn:hover {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.register-btn {
+  background-color: #ff802b;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.3em;
+  color: #4c4c4c;
+  float: right;
+}
+
+.register-btn:hover {
+  background-color: #6495ed;
+  color: #ffffff;
+}
+
+.branding {
+  width: 240px;
+}
+
+mat-toolbar-row {
+  background-color: #454545;
+  color: #ffffff;
+}
+
+#back-btn {
+  cursor: pointer;
+  background: no-repeat;
+  float: right;
+  border: none;
+  color: #ffffff;
+  position: absolute;
+  right: 100px;
+  text-transform: uppercase;
+}
+
+#back-btn:hover {
+  color: #cd5c5c;
+}

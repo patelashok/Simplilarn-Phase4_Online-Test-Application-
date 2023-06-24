@@ -1,0 +1,116 @@
+{
+  "signUp": [
+    {
+      "userFirstName": "Narasimha",
+      "userLastName": "Raju",
+      "userName": "Nara345!gmail.com",
+      "userPassword": "Nara!3456",
+      "userContactNo": "9812309865",
+      "id": "1"
+    },
+    {
+      "userFirstName": "Bharat",
+      "userLastName": "Reddy",
+      "userName": "bharatR@gmail.com",
+      "userPassword": "Bharat@346",
+      "userContactNo": "9007812341",
+      "id": "2"
+    },
+    {
+      "userFirstName": "Ganapathi",
+      "userLastName": "Narasimha",
+      "userName": "Bhagavan123",
+      "userPassword": "8828737373",
+      "userContactNo": "9100659045",
+      "id": "YHtiQyb"
+    },
+    {
+      "userFirstName": "Ganapathi",
+      "userLastName": "Narasimha",
+      "userName": "Bhagavan123",
+      "userPassword": "8828737373",
+      "userContactNo": "9100659045",
+      "id": "KW-bRZa"
+    },
+    {
+      "userFirstName": "",
+      "userLastName": "",
+      "userName": "",
+      "userPassword": "",
+      "userContactNo": "",
+      "id": "7OemOPD"
+    },
+    {
+      "userFirstName": "",
+      "userLastName": "",
+      "userName": "",
+      "userPassword": "",
+      "userContactNo": "",
+      "id": "L6CQZYU"
+    },
+    {
+      "userFirstName": "gana",
+      "userLastName": "jana",
+      "userName": "numjaq",
+      "userPassword": "gshgsjgshgs",
+      "userContactNo": "8726226282",
+      "id": "XtACq31"
+    },
+    {
+      "userFirstName": "gana",
+      "userLastName": "jana",
+      "userName": "numjaq",
+      "userPassword": "gshgsjgshgs",
+      "userContactNo": "8726226282",
+      "id": "EyM3K3Y"
+    },
+    {
+      "userFirstName": "",
+      "userLastName": "",
+      "userName": "",
+      "userPassword": "",
+      "userContactNo": "",
+      "id": "jbZzUjs"
+    },
+    {
+      "userFirstName": "",
+      "userLastName": "",
+      "userName": "",
+      "userPassword": "",
+      "userContactNo": "",
+      "id": "Sx8xNt_"
+    },
+    {
+      "userFirstName": "Gana",
+      "userLastName": "Venkata",
+      "userName": "khalll",
+      "userPassword": "jhjshsh",
+      "userContactNo": "8199999922",
+      "id": "omDKVRV"
+    },
+    {
+      "userFirstName": "Alam",
+      "userLastName": "Bhaskar",
+      "userName": "Nvg12@gmail.com",
+      "userPassword": "weuwuewrg",
+      "userContactNo": "9520709023",
+      "id": "A41UUEs"
+    },
+    {
+      "userFirstName": "Hakol",
+      "userLastName": "Parekh",
+      "userName": "h1233@gmail.com",
+      "userPassword": "sdfewerew",
+      "userContactNo": "9727266622",
+      "id": "ZYO7XPv"
+    },
+    {
+      "userFirstName": "Bhaskar",
+      "userLastName": "Sanathan",
+      "userName": "sana!421",
+      "userPassword": "Bhas@345",
+      "userContactNo": "9100659045",
+      "id": "H-z5ZBQ"
+    }
+  ]
+}

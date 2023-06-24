@@ -1,0 +1,30 @@
+<div class="bg-img">
+  <mat-toolbar>
+    <div class="header-logo">
+      <img class="branding" src="../../assets/headerLogo.png" alt="header" />
+    </div>
+    <button id="logout" (click)="logoutUser()">
+      <img src="../../assets/logout.png" alt="logout" />
+    </button>
+  </mat-toolbar>
+
+  <div class="container bg-light py-6">
+    <h1 class="main-txt">Welcome to Engimatiq</h1>
+    <p style="color: #ffffff" class="col-md-8 fs-4">
+      This quiz will contains total 10 questions. Each Question holds 10 Points
+    </p>
+    <h2 style="color: #ffffff">Rules:</h2>
+    <ol style="font-size: 18px; color: #ffffff">
+      <li>Correct Question gives you 10 points</li>
+      <li>Incorrect question gives to -ve(10) points</li>
+      <li>You will have 60 sec to answer each question</li>
+      <li>Refreshing the page will reset the Quiz</li>
+    </ol>
+    <h1 style="color: #ffffff" class="info-txt">All the best🙂🙂🙂</h1>
+    <div id="name-label" class="name col-md-4 my-3">
+      <label id="name" for="">Enter your name:</label>
+      <input #name type="text" class="form-control" />
+    </div>
+    <button class="start-btn" (click)="startQuiz()">Start the Quiz!!</button>
+  </div>
+</div>

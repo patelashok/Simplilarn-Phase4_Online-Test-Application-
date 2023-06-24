@@ -1,0 +1,185 @@
+<div class="bg-img">
+  <mat-toolbar>
+    <mat-toolbar-row>
+      <div class="header-logo">
+        <img class="branding" src="../../assets/headerLogo.png" alt="header" />
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <div class="example-container">
+    <div class="form-container">
+      <mat-card>
+        <div class="header_text">
+          <mat-card-title>Register</mat-card-title>
+        </div>
+        <mat-card-content fxLayout="row">
+          <form [formGroup]="userRegisterForm" (ngSubmit)="onSubmit()">
+            <mat-form-field class="form-field" appearance="outline">
+              <mat-label> First Name </mat-label>
+              <input
+                matInput
+                formControlName="userFirstName"
+                placeholder="First Name"
+                required
+              />
+              <mat-error
+                *ngIf="
+                  userRegisterForm.get('userFirstName')?.hasError('required')
+                "
+              >
+                This Field is required
+              </mat-error>
+              <mat-error
+                *ngIf="
+                  userRegisterForm.get('userFirstName')?.hasError('minlength')
+                "
+              >
+                First Name Must be at least 4 Characters
+              </mat-error>
+              <mat-error
+                *ngIf="
+                  userRegisterForm.get('userFirstName')?.hasError('maxlength')
+                "
+              >
+                First Name Should not Exceed 20 Characters
+              </mat-error>
+              <mat-error
+                *ngIf="
+                  userRegisterForm.get('userFirstName')?.hasError('pattern')
+                "
+              >
+                Invalid First Name
+              </mat-error>
+            </mat-form-field>
+            <mat-form-field class="form-field" appearance="outline">
+              <mat-label> Last Name </mat-label>
+              <input
+                matInput
+                formControlName="userLastName"
+                placeholder="Last Name"
+                required
+              />
+              <mat-error
+                *ngIf="
+                  userRegisterForm.get('userLastName')?.hasError('required')
+                "
+              >
+                This Field is required
+              </mat-error>
+              <mat-error
+                *ngIf="
+                  userRegisterForm.get('userLastName')?.hasError('minlength')
+                "
+              >
+                Last Name Must be at least 3 Characters
+              </mat-error>
+              <mat-error
+                *ngIf="
+                  userRegisterForm.get('userLastName')?.hasError('maxlength')
+                "
+              >
+                Last Name Should not Exceed 15 Characters
+              </mat-error>
+              <mat-error
+                *ngIf="
+                  userRegisterForm.get('userLastName')?.hasError('pattern')
+                "
+              >
+                Invalid Last Name
+              </mat-error>
+            </mat-form-field>
+            <mat-form-field class="form-field" appearance="outline">
+              <mat-label> User Name </mat-label>
+              <input
+                matInput
+                formControlName="userName"
+                placeholder="User Name"
+                required
+              />
+              <mat-error
+                *ngIf="userRegisterForm.get('userName')?.hasError('required')"
+              >
+                This Field is required
+              </mat-error>
+              <mat-error
+                *ngIf="userRegisterForm.get('userName')?.hasError('minlength')"
+              >
+                User Name Must be at least 5 Characters
+              </mat-error>
+              <mat-error
+                *ngIf="userRegisterForm.get('userName')?.hasError('maxlength')"
+              >
+                User Name Should not Exceed 15 Characters
+              </mat-error>
+            </mat-form-field>
+            <mat-form-field class="form-field" appearance="outline">
+              <mat-label> Password </mat-label>
+              <input
+                matInput
+                formControlName="userPassword"
+                type="password"
+                placeholder="Password"
+                required
+              />
+              <mat-error
+                *ngIf="
+                  userRegisterForm.get('userPassword')?.hasError('required')
+                "
+              >
+                This Field is required
+              </mat-error>
+              <mat-error
+                *ngIf="
+                  userRegisterForm.get('userPassword')?.hasError('minlength')
+                "
+              >
+                Password Must be at least 6 Characters
+              </mat-error>
+              <mat-error
+                *ngIf="
+                  userRegisterForm.get('userPassword')?.hasError('maxlength')
+                "
+              >
+                Password Should not Exceed 15 Characters</mat-error
+              >
+            </mat-form-field>
+            <mat-form-field class="form-field" appearance="outline">
+              <mat-label> Mobile NO </mat-label>
+              <input
+                matInput
+                formControlName="userContactNo"
+                placeholder="Mobile NO"
+                required
+              />
+              <mat-error
+                *ngIf="
+                  userRegisterForm.get('userContactNo')?.hasError('required')
+                "
+              >
+                This Field is required
+              </mat-error>
+              <mat-error
+                *ngIf="
+                  userRegisterForm.get('userContactNo')?.hasError('pattern')
+                "
+              >
+                Invalid Field
+              </mat-error>
+            </mat-form-field>
+            <button type="submit" mat-raised-button color="success">
+              Register
+            </button>
+            <button
+              mat-raised-button
+              color="warn"
+              style="float: right"
+              (click)="cancel()"
+            >
+              Cancel
+            </button>
+          </form>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

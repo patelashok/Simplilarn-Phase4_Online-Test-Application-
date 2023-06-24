@@ -1,0 +1,31 @@
+#back-btn {
+  cursor: pointer;
+  background: no-repeat;
+  float: right;
+  border: none;
+  color: #ffffff;
+  position: absolute;
+  right: 100px;
+  text-transform: uppercase;
+}
+
+#back-btn:hover {
+  color: #cd5c5c;
+}
+
+mat-toolbar-row {
+  background-color: #454545;
+}
+
+.bg-img {
+  background-image: url("../../assets/notePage.png");
+  min-height: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.branding {
+  width: 240px;
+}

@@ -1,0 +1,132 @@
+<div class="bg-img">
+  <mat-toolbar>
+    <mat-toolbar-row>
+      <div class="header-logo">
+        <img class="branding" src="../../assets/headerLogo.png" alt="header" />
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <div class="example-container">
+    <div class="form-container">
+      <mat-card>
+        <mat-card-header class="text">
+          <mat-card-title>Contact US</mat-card-title>
+        </mat-card-header>
+        <mat-card-content fxLayout="row">
+          <form
+            [formGroup]="contactForm"
+            (ngSubmit)="onSubmit(contactForm.value)"
+          >
+            <mat-form-field #name class="form-field" appearance="outline">
+              <mat-label> User Name </mat-label>
+              <input
+                matInput
+                formControlName="userName"
+                placeholder="Enter UserName"
+                required
+              />
+              <mat-error
+                *ngIf="contactForm.get('userName')?.hasError('required')"
+              >
+                This Field is required
+              </mat-error>
+              <mat-error
+                *ngIf="contactForm.get('userName')?.hasError('minlength')"
+              >
+                User Name Must be at least 4 Characters
+              </mat-error>
+              <mat-error
+                *ngIf="contactForm.get('userName')?.hasError('maxlength')"
+              >
+                User Name Should not Exceed 20 Characters
+              </mat-error>
+              <mat-error
+                *ngIf="contactForm.get('userName')?.hasError('pattern')"
+              >
+                Invalid User Name
+              </mat-error>
+            </mat-form-field>
+            <mat-form-field #name class="form-field" appearance="outline">
+              <mat-label> Email </mat-label>
+              <input
+                matInput
+                type="email"
+                formControlName="email"
+                placeholder="Enter Email Id"
+                required
+              />
+              <mat-error *ngIf="contactForm.get('email')?.hasError('required')">
+                Email Id is required
+              </mat-error>
+              <mat-error *ngIf="contactForm.get('email')?.hasError('pattern')">
+                Invalid Email Id
+              </mat-error>
+            </mat-form-field>
+            <mat-form-field class="form-field" appearance="outline">
+              <mat-label> Mobile NO </mat-label>
+              <input
+                matInput
+                formControlName="userContactNo"
+                placeholder="Mobile NO"
+                required
+              />
+              <mat-error
+                *ngIf="contactForm.get('userContactNo')?.hasError('required')"
+              >
+                This Field is required
+              </mat-error>
+              <mat-error
+                *ngIf="contactForm.get('userContactNo')?.hasError('pattern')"
+              >
+                Invalid Field
+              </mat-error>
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+              <mat-label>Leave a comment</mat-label>
+              <textarea
+                matInput
+                formControlName="comment"
+                placeholder="Ex. It makes me feel..."
+                required
+              ></textarea>
+              <mat-error
+                *ngIf="contactForm.get('comment')?.hasError('required')"
+              >
+                This Field is required
+              </mat-error>
+              <mat-error
+                *ngIf="contactForm.get('comment')?.hasError('minlength')"
+              >
+                Please enter Minimum 8 characters
+              </mat-error>
+              <mat-error
+                *ngIf="contactForm.get('comment')?.hasError('maxlength')"
+              >
+                Should not exceed 50 characters
+              </mat-error>
+            </mat-form-field>
+            <button type="submit" mat-raised-button color="success">
+              Submit
+            </button>
+            <button
+              mat-raised-button
+              color="success"
+              style="margin-left: 10%"
+              [routerLink]="['/address']"
+            >
+              Address
+            </button>
+            <button
+              mat-raised-button
+              color="warn"
+              style="float: right"
+              (click)="cancel()"
+            >
+              Cancel
+            </button>
+          </form>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

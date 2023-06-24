@@ -1,0 +1,64 @@
+@mixin navbar-theme($theme) {
+  $primary: map-get($theme, primary);
+  $warn: map-get($theme, warn);
+  $background: map-get($theme, background);
+  $foreground: map-get($theme, foreground);
+
+  .bg-img {
+    background-image: url("../../assets/landing.png");
+    min-height: 100%;
+    height: 700px;
+    background-size: cover;
+  }
+
+  .header-text {
+    margin: 5px;
+  }
+
+  a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+
+  a:hover {
+    color: #f08080;
+  }
+
+  .activebutton {
+    background-color: rgb(51, 51, 51);
+    color: white;
+  }
+
+  .branding {
+    width: 240px;
+  }
+
+  .right a {
+    margin: 0px 800px;
+    text-decoration: none;
+  }
+
+  #login {
+    cursor: pointer;
+    background: no-repeat;
+    float: right;
+    border: none;
+    color: #00000099;
+    position: absolute;
+    right: 80px;
+    a {
+      text-decoration: none;
+      font-size: 20px;
+    }
+  }
+
+  .slider {
+    right: 80px !important;
+  }
+
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+}

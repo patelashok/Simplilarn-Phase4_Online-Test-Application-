@@ -1,0 +1,46 @@
+.bg-img {
+  background-image: url("../../assets/contactPage.png");
+  min-height: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.example-container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-field {
+  height: 100px;
+  width: 300px;
+  display: block;
+}
+
+mat-card {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-left: 800px;
+  margin-top: 100px;
+}
+
+.text {
+  justify-content: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.branding {
+  width: 240px;
+}
+
+mat-toolbar-row {
+  background-color: #454545;
+  color: #ffffff;
+}
+
+.example-full-width {
+  width: 100%;
+}
